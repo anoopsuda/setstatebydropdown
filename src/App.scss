@@ -1,0 +1,30 @@
+.card {
+    
+    &.default {
+
+        border-color: gray;
+
+        .card-header {
+            background: gray;
+        }
+
+    }
+    &.success {
+
+        border-color: green;
+
+        .card-header {
+            background: green;
+        }
+
+    }
+    &.danger {
+
+        border-color: red;
+
+        .card-header {
+            background: red;
+        }
+
+    }
+}
